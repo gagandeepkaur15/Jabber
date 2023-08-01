@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mybud-wdso",
+  "private_key_id": "0ce30876e79a1e34bf7e95efe2cc72257599924d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPzO4L1we1rDvt\nyM34WSYms75pNtlRSlda5DXNOYQPTkjCR02979XUcRB7fuzJEorDIDylzITsl4fj\nKNEkqm9Liv4eJ+GDj/OV7KEqkhiG64VeK3cGY0TqBC+PoC7vzOO+hZCsPC0+PIzR\nyqoQ10N+I0VVkOYLoPkMaF1p5NO0BZCrF10pPx6qoNffrByGbFdx1U1B69HxBooD\nX41+vZdDumDWJVFCsjpMcHDNwXAqUgdd8+HDACq/N8Cyd/NK9jvMLrbQeFctKWEe\nPUwqwawtOTuBzkYwFscncqK53UTgXEd43mHoZ12+N4/5BnEuon47bcN7SMGkemeq\nStw0KBF1AgMBAAECggEAHsy7YMZhpmgNpugrPTrreHOOTrZ6Pf4Elhx6q/0xKXqb\nNq6OY49jlH4gqQlOS9xDdHn3+0Ql1JJ+KemAHEzlu57xnOMg3hjtTAS7e52VZJQO\nm79aADig+4Wczg86PcFS5UeTQrAVraKYZbUCAYaCgrT0HyNfsYwNtezXIa2wwj8H\nhuSvmROTGl8Oz6PIiOF8J24V81/Ao2NCjpz73QzXvIuqTK+0YjJyVsrvUjIql2Dr\nWhHMKK4m2lO6Cyspg4J0zM2/dCPhY3PIxrXhXvY30e/z2g3TvCbQxbUZBopoPgQr\n5mK6N/c7utsUvk3qLNpiWP734IPCv5NqAOdj65TByQKBgQDsJLwl9btRB0fikk3P\nh/5JUT56uv1RIktnctXcG2pia2+h+0vrE+gKLTFEmDYNGF143orklR3E5LGRavXq\nhRcH1daUnBQc60W4QLRbvpICFzCX/MC1W/dBIpMgwUpxfHvBvSJYkQbkGqLx8RvY\nxqBdoQRX+yOyDPSLkf34lpeHrQKBgQDhRhQ0Na2OnOtb0MuUzHYhw3kGeP98/TJM\nQQaMJ6jqokSfSUYmElud/mpHZZhwIldCzTRQTuRC9gDLmmnXvG5kNChBCtCzlZEI\nV0SxOprJnyDzHB5F/UEiSxxoFKtJ0M1Rn2MTEU1B9NYLyxzVfRwqszdUhR2Tbx4I\n1hglO2qJ6QKBgD8tvODzE8CkEAmAVy0VF2WKRQsVCD0yzbXJtYoEE7xtPhq6Xx9v\n3f8LBElz59ItGKUD9WketC4/eXqMgWrTXMwN3DE6aO8ryyV2ukppfCrvBWNEjlJ3\nXnmgxHhY/o/KXFoDPjMv6gYRUlMkzOx8h99E+yKG4I/8g1jsIGTn9XapAoGBAKrs\nHhZDCA1l2FnQwTaEL7mMc75KficagVhEGjCrQsnMFt74nKX0Vdk5mO/VEOU72ROR\nWPj58s0vlAjnfxk2GlgjDsvS5ejsOZ+nfzItchY6i6iJlBqsfggED2iVDiWyrKYa\nlfR4szKxDtrh4F3HUGDBm+CgI4Gi1JoFv0o4m6xJAoGBAN/0drFrbKrDH3G5Z8oB\ntDWzsPBMyXunuKrt9/8pZstaY5BVnEuJb6Osc7qS2u0J+nhtOBkCbbdbkmwCoRV2\nXmzE1Wkjes+AdmZcJekuTf/mdxndzJWAC8xBrZhIe677RuvklBOX4l6gTfTx0poo\nkqffqjGEbXY58nRQkb2KxfJe\n-----END PRIVATE KEY-----\n",
+  "client_email": "mybud-370@mybud-wdso.iam.gserviceaccount.com",
+  "client_id": "107181523779383509660",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mybud-370%40mybud-wdso.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
