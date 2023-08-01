@@ -28,32 +28,35 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Jabber'),
       ),
-      body: Container(
-        child: Column(
-          children: [
-            Expanded(child: MessagesScreen(messages: messages)),
-            Container(
-              padding: const EdgeInsets.symmetric(
-                horizontal: 14,
-                vertical: 8,
-              ),
-              color: Colors.deepPurple,
-              child: Row(
-                children: [
-                  Expanded(
-                    child: TextField(
-                      controller: _controller,
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
+      body: Column(
+        children: [
+          Expanded(child: MessagesScreen(messages: messages)),
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 14,
+              vertical: 8,
+            ),
+            color: Colors.deepPurple,
+            child: Row(
+              children: [
+                Expanded(
+                  child: TextField(
+                    controller: _controller,
+                    style: const TextStyle(
+                      color: Colors.white,
                     ),
                   ),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.send))
-                ],
-              ),
+                ),
+                IconButton(
+                    onPressed: () {
+                      sendMessages(_controller.text);
+                      _controller.clear();
+                    },
+                    icon: const Icon(Icons.send))
+              ],
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
@@ -61,6 +64,7 @@ class _HomePageState extends State<HomePage> {
   //For handling user messages
   sendMessages(String text) async {
     if (text.isEmpty) {
+      // ignore: avoid_print
       print("Message is Empty");
     } else {
       setState(() {
